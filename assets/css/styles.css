@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(77, 194, 194);
+}
+
+h1 {
+  position: relative;
+}
+
+.char-box {
+  position: absolute;
+  float: left;
+  background-color: lightgray;
+  height: 500px;
+  width: auto;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.margin-override {
+  margin: 10px 0 10px 0;
+}
+.align-right {
+  float: right;
+}
+
+@media only screen and (max-width: 1200px) {
+}
